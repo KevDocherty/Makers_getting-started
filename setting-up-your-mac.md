@@ -90,6 +90,8 @@ You'll need an Integrated Development Environment (IDE) to write your code. We h
 brew install --cask visual-studio-code
 ```
 
+Additionally, we **highly** recommend [following these instructions to enable you to launch VS Code from your terminal.](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) 👍
+
 ## 🤖 Google Chrome 🤖
 
 Love it or hate it, Google Chrome is a powerful modern web browser with excellent debugging tools. [You'll want to download a copy from here,](https://www.google.com/chrome/) or if you want to use `brew`, by running the following in your terminal:
