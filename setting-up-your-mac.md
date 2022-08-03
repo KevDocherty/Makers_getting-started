@@ -132,7 +132,4 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 Besides being very pretty, this will actually be very useful to you when you start working with `git` on the course!
 
----
-
 ## 👾️ Now it's time to start `PROGRAMMING!`👾️
----
