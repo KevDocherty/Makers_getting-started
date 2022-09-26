@@ -1,4 +1,10 @@
-# 👋 Welcome to Makers 👋
+# :warning: THIS GUIDE IS DEPRECATED
+
+See the [Development setup guide](https://github.com/makersacademy/basic-programming#phase-zero-development-setup) Basic Programming module instead.
+
+The instructions in this repo may not be up to date with the latest requirements of the course.
+
+----
 
 This repository is intended to help new Makers set their machines up.
 
