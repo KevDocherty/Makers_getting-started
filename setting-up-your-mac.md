@@ -57,18 +57,47 @@ Currently the main language we teach on the course is Ruby. Sometimes only certa
 
 Your Mac should come with a version of Ruby pre-installed, but you will need a tool that lets you have multiple versions of Ruby available to you, and that makes it easy to switch between them easily. Enter your new friend: Ruby Version Manager (RVM).
 
-At present there is only one route to install RVM that we would recommend:
-
-**Route 1: `Visit https://rvm.io`**
-
-The homepage for RVM can be found [here.](https://rvm.io/)
+At present there is only one route to install RVM that we would recommend: visit [rvm.io](https://rvm.io) and follow the installation instructions.
 
 If you are in too much of a rush, you could just paste the following command into your terminal:
 
 ```bash
 \curl -sSL https://get.rvm.io | bash -s stable
 ```
+
 But we highly recommend learning a little bit about all of the software you're installing. Understanding how to use `rvm` to install and use different versions of Ruby is quite important on the course.
+
+### Using RVM to install Ruby
+
+Next, you're going to use RVM to install Ruby.
+Use the following commands to install version 3.0.0 of Ruby and then set it as the default to use going forward.
+
+```bash
+rvm install 3.0.0
+rvm --default use 3.0.0
+```
+
+Once you've done that, verify that you’re now using an RVM-managed version of Ruby by running the following command:
+
+```bash
+which ruby
+```
+
+If it prints something that looks like
+
+```bash
+/Users/<your username>/.rvm/rubies/ruby-3.0.0/bin/ruby
+```
+
+or
+
+```bash
+~/.rvm/rubies/ruby-3.0.0/bin/ruby
+```
+
+it means that the installation was successful.
+
+**If you run into any problems at this point, ask your cohort for help and then reach out to a coach if you are still blocked.**
 
 ## ☕ Homebrew ☕
 
